@@ -4,6 +4,13 @@
   "private": false,
   "scripts": {},
   "main": "src/index.js",
+  "publishConfig": {
+    "registry": "https://nexus.figure.com/repository/figure-npm/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FigureTechnologies/plugin-image-zoom.git"
+  },
   "dependencies": {
     "medium-zoom": "^1.0.4"
   }
