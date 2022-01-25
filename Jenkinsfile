@@ -19,11 +19,6 @@ pipeline {
                 npmInstall()
             }
         }
-        stage('Npm Build') {
-            steps {
-                npmRun('build')
-            }
-        }
         stage('Npm Publish') {
             steps {
                 script {
